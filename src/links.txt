@@ -1,0 +1,38 @@
+6daf3881a5e25279cb77e3bf97be2e6d
+
+Base Url:curl --request GET \
+     --url https://api.themoviedb.org/3/authentication \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+Individual:curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/movie_id?language=en-US' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+Search:curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?include_adult=false&language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+upcoming:curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+top rated:curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+popular:curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+now playing:curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGFmMzg4MWE1ZTI1Mjc5Y2I3N2UzYmY5N2JlMmU2ZCIsInN1YiI6IjY2MDY1YTZhNTkwMDg2MDE3Y2I2YjNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.izcK-zaaW6nOw_YyLg3lS2LjYuEj2zVCBq_vAkgVaCI' \
+     --header 'accept: application/json'
+
+
